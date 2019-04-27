@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "cfwmHQ",
+    "slug": "christForTheWorldMission",
+    "description": "Offical Android app for Christ For The World Mission",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e9e9e9"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 1
+    },
+    "assetBundlePatterns": ["**/*"],
+    "primaryColor": "#B22222",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "org.christfortheworldmission.cfwnHQ"
+    }
+  }
+}
